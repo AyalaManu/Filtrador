@@ -10,11 +10,16 @@ public class Asesorias {
     public static void main(String[] args) {
         
         
+        int holamundo=0;
+        JOptionPane.showMessageDialog(null,"Hola mundo");
+        
+        
+        
         int contador = 0;
         int contador2 = 0;
         int contador3= 0;
         
-            for (int i = 0; i < 20; i++) {
+            for (int i = 0; i < 1; i++) {
                 
            int   num = Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese los numeros") );
           
